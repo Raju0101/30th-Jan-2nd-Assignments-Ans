@@ -1,0 +1,254 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "fb256cf0-f438-47a1-acfd-1864a8c9dd35",
+   "metadata": {
+    "tags": []
+   },
+   "source": [
+    "# 30th Jan ,2 nd Assinments Ans;"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "07d40053-d0a5-4e30-9394-8034ab2a2632",
+   "metadata": {},
+   "source": [
+    "## Q.1 Ans;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "e1f8d8af-d1dc-4f32-8aeb-83f59b0d35a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Markes 55\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "D\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks = int(input(\"Enter Markes\"))\n",
+    "if marks > 90:\n",
+    "    print(\"A\")\n",
+    "elif marks >80 and marks <= 90:\n",
+    "    print (\"B\")\n",
+    "elif marks >= 60 and marks <= 80:\n",
+    "    print(\"C\") \n",
+    "else:\n",
+    "     print(\"D\")        \n",
+    "            \n",
+    "            "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ee1facda-c2a6-4f93-a8f5-177cefa78a1c",
+   "metadata": {},
+   "source": [
+    "## Q.2 Ans;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "1d95c101-736e-4081-bbd6-6742dbbd8754",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Bike Price 50000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5 % Tax\n"
+     ]
+    }
+   ],
+   "source": [
+    "price = int(input(\"Enter Bike Price\"))\n",
+    "if price > 100000:\n",
+    "    print (\"15 % Tax\")\n",
+    "elif price >50000 and price <= 100000:\n",
+    "    print(\"10 % Tax\")\n",
+    "else:\n",
+    "    print(\"5 % Tax\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1b5fdf46-1cda-42d2-82cf-cb3c2098c9b3",
+   "metadata": {},
+   "source": [
+    "#Q.3 Ans;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "c1af4d8b-4c72-439a-804a-2e397800e8fd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter City name Jaipur\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jal Mahal\n"
+     ]
+    }
+   ],
+   "source": [
+    "city = input(\"Enter City name\")\n",
+    "if city == \"Delhi\":\n",
+    "     print(\"Red Fort\")\n",
+    "elif city == \"Agra\":\n",
+    "     print(\"Taj Mahal\")\n",
+    "elif city == \"Jaipur\" :\n",
+    "     print(\"Jal Mahal\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b4a7a1cb-c799-4ce0-aacc-f2844c823b6b",
+   "metadata": {},
+   "source": [
+    "##Q.5 Ans:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "95ee4a5f-7766-46f4-bcb0-d4b922233647",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## With the while loop we can execute a set of statements as long as a condition is true."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "cfdcbf9b-0bec-49c3-bfb9-ba9f6a9d23c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "i = 0\n",
+    "\n",
+    "while i <= 10:\n",
+    "    print(i+1)\n",
+    "    i= i+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "755e3909-bcbc-484f-ba35-a53d451d58d2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e27da8d7-e6ad-415b-98f6-8a9fa898bea2",
+   "metadata": {},
+   "source": [
+    "##  Q.7 & 8 Ans;"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "8f065d69-09b1-435b-b6d9-b408fd34d4dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "5\n",
+      "4\n",
+      "3\n",
+      "2\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "i = 11\n",
+    "\n",
+    "while i > 1:\n",
+    "   \n",
+    "    print(i-1)\n",
+    "    i= i-1"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
